@@ -1,11 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Badge, Box, IconButton } from "@mui/material";
-import {
-  PersonOutline,
-  ShoppingBagOutlined,
-  MenuOutlined,
-  SearchOutlined,
-} from "@mui/icons-material";
 import {FaUser,FaSearch,FaBars,FaShoppingCart}from "react-icons/fa"
 import { useNavigate } from "react-router-dom";
 import { shades } from "../../theme/theme";
